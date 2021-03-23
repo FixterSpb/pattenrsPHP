@@ -1,0 +1,12 @@
+
+project/.idea/
+
+project/composer.bat
+
+project/.phpunit.result.cache
+
+project/composer1.bat
+
+project/vendor/
+
+.idea/
