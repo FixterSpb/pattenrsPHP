@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T10:55:26.713Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="yFx5NM6jun922P0DOGka" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-25T17:40:31.414Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="G9wpFFzuWyUJTODZjOTC" version="14.5.1" type="github">
   <diagram id="F5hbdtVg4_Iovi3qO92n" name="Page-1">
-    <mxGraphModel dx="7968" dy="4646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2970" dy="2168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -315,7 +315,7 @@
         <mxCell id="TvS6yxpVSgVdmb5_EOR--5" value="+ getById(int): Entity\User&#xa;+ getByLogin(string): Entity\User&#xa;- createUser(array): Entity\User&#xa;- getDataFromSource(array)&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TvS6yxpVSgVdmb5_EOR--3" vertex="1">
           <mxGeometry y="34" width="220" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="TvS6yxpVSgVdmb5_EOR--118" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;startSize=18;endArrow=open;endFill=0;endSize=12;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="TvS6yxpVSgVdmb5_EOR--89" edge="1">
+        <mxCell id="TvS6yxpVSgVdmb5_EOR--118" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;startSize=20;endArrow=diamondThin;endFill=0;endSize=20;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="TvS6yxpVSgVdmb5_EOR--89" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-479" y="-1240" as="targetPoint" />
           </mxGeometry>
@@ -334,7 +334,7 @@
         <mxCell id="TvS6yxpVSgVdmb5_EOR--92" value="+ getDiscount(): float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="TvS6yxpVSgVdmb5_EOR--89" vertex="1">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="TvS6yxpVSgVdmb5_EOR--119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;startSize=18;endArrow=open;endFill=0;endSize=12;" parent="1" source="OfdvmskGDhxGMdM6KS_6-18" target="OfdvmskGDhxGMdM6KS_6-25" edge="1">
+        <mxCell id="TvS6yxpVSgVdmb5_EOR--119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;startSize=20;endArrow=diamondThin;endFill=0;endSize=20;" parent="1" source="OfdvmskGDhxGMdM6KS_6-18" target="OfdvmskGDhxGMdM6KS_6-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OfdvmskGDhxGMdM6KS_6-18" value="Entity\User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -712,9 +712,6 @@
         <mxCell id="OfdvmskGDhxGMdM6KS_6-15" value="+ search(array): Entity\Product[*]&#xa;+ fetchAll(): Entity\Product[*]&#xa;+ getDataFromSource(array): array" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OfdvmskGDhxGMdM6KS_6-12" vertex="1">
           <mxGeometry y="34" width="220" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="TvS6yxpVSgVdmb5_EOR--2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1610" y="-1395" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="OfdvmskGDhxGMdM6KS_6-2" value="Entity\Product" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-1840" y="-1520" width="160" height="160" as="geometry">
             <mxRectangle x="-1360" y="-40" width="120" height="26" as="alternateBounds" />
@@ -728,9 +725,6 @@
         </mxCell>
         <mxCell id="OfdvmskGDhxGMdM6KS_6-5" value="+ getId(): int&#xa;+ getName(): string&#xa;+ getPrice(): float&#xa;+ toArray(): array" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="OfdvmskGDhxGMdM6KS_6-2" vertex="1">
           <mxGeometry y="88" width="160" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="TvS6yxpVSgVdmb5_EOR--1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;*&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1680" y="-1395" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XusIFSWOtDL4XgLfl8Nd-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;glass=0;shadow=0;sketch=0;perimeterSpacing=0;opacity=70;" parent="1" vertex="1">
           <mxGeometry x="-2170" y="-740" width="2060" height="210" as="geometry" />
