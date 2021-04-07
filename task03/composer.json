@@ -1,0 +1,11 @@
+{
+    "require": {
+        "composer/composer": "^2.0",
+      "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\":""
+        }
+    }
+}
