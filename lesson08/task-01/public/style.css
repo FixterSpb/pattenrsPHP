@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.item {
+    margin: 0 20px;
+    padding: 0 15px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.item:hover{
+    outline: 1px solid lightblue;
+}
+
+.dir-name{
+    text-align: center;
+}
